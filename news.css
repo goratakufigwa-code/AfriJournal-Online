@@ -1,0 +1,179 @@
+
+
+/* --------- Root Variables --------- */
+:root {
+  --primary-color: #003366;       /* Deep blue */
+  --accent-color: #cc0000;        /* Red accent */
+  --text-color: #333333;
+  --dark-color: #111111;
+  --light-color: #ffffff;
+  --secondary-bg: #f5f5f5;
+  --border-radius: 10px;
+  --max-width: 1100px;
+  --transition-speed: 0.3s;
+  --gap: 1.5rem;
+}
+
+/* --------- Global Reset & Body --------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--secondary-bg);
+  color: var(--text-color);
+  line-height: 1.7;
+  padding: 0 1rem;
+}
+
+/* --------- Header --------- */
+header {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    padding: 1.2rem 2rem;
+    display: flex
+;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: clamp(1.8rem, 3vw, 2rem);
+  margin-bottom: 0.5rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--light-color);
+  padding: 0.5rem 1rem;
+  border-radius: var(--border-radius);
+  transition: background var(--transition-speed), transform var(--transition-speed);
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  background-color: var(--accent-color);
+  transform: scale(1.05);
+}
+
+/* --------- Page Heading --------- */
+h2 {
+  color: var(--primary-color);
+  font-size: clamp(1.8rem, 3vw, 2rem);
+  margin: 2rem auto 1rem;
+  max-width: var(--max-width);
+  border-bottom: 2px solid var(--accent-color);
+  padding-bottom: 0.3rem;
+}
+
+/* --------- Articles --------- */
+article {
+  background-color: var(--light-color);
+  max-width: var(--max-width);
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border-radius: var(--border-radius);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+  transition: transform var(--transition-speed), box-shadow var(--transition-speed);
+}
+
+article:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+}
+
+article h2 {
+  color: var(--dark-color);
+  margin-bottom: 1rem;
+  font-size: clamp(1.5rem, 2.5vw, 1.8rem);
+}
+
+article p {
+  margin-bottom: 1rem;
+  text-align: justify;
+  font-size: clamp(1rem, 1.5vw, 1.1rem);
+  color: var(--text-color);
+}
+
+article img {
+  width: 100%;
+  height: auto;
+  margin: 1rem 0;
+  border-radius: var(--border-radius);
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: transform var(--transition-speed);
+}
+
+article img:hover {
+  transform: scale(1.02);
+}
+
+/* --------- Links Inside Articles --------- */
+article a {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color var(--transition-speed);
+}
+
+article a:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+/* --------- Footer (Optional if used) --------- */
+footer {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  text-align: center;
+  padding: 1.5rem 1rem;
+  margin-top: 3rem;
+  font-size: 0.95rem;
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
+}
+
+/* --------- Responsive Design --------- */
+@media (min-width: 768px) {
+  article {
+    padding: 2rem;
+  }
+
+  nav ul {
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  article {
+    padding: 1rem;
+  }
+
+  article img {
+    max-height: 300px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
