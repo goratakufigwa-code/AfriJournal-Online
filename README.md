@@ -79,7 +79,11 @@ Program: BA (Hons) in Broadcasting and Journalism
 University: Limkokwing University of Creative Technology  
 Year: 2025  
 
-
+References 
+Jacob Kelebeng picture was taken from the Ministry of Sport and Arts Botswana page in Facebook 
+Cricket picture was taken from Botswana Cricket Association Facebook page
+SADC picture was taken from the the SADC official Facebook page
+Tumisang Orebonye's pictures was taken from Al'lttihad official Facebook page
 
 License
 
