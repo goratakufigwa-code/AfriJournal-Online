@@ -1,27 +1,30 @@
-# AfriJournal Online
+AfriJournal Online
 
-**AfriJournal Online** is a Botswana-based digital news platform dedicated to telling stories that matter — from local communities to regional and international arenas.  
-Our goal is to empower African voices, highlight underreported stories, and connect readers to the realities shaping Africa today.
-
-
-## Website Overview
-
-This website was developed as part of the **Web Technology 1** module for the **BA (Hons) in Broadcasting and Journalism** program at **Limkokwing University, Gaborone Campus**.
-
-It serves as a prototype for an online journalism platform that integrates multimedia content, news categories, and interactive features.
-
-
-## Features
-
-- **Homepage:** Displays featured stories and the latest headlines.  
-- **Category Pages:** Separate sections for News, Sports, Entertainment, and Opinion.  
-- **Multimedia Section:** Includes videos, photos, and an audio interview.  
-- **About Us Page:** Describes the organisation and its mission.  
-- **Contact Page:** Includes a feedback form for users.  
+AfriJournal Online** is a Botswana-based digital news platform dedicated to telling stories that matter from local communities to regional and international arenas.  
+Our goal is to empower African voices, highlight underreported stories and connect readers to the realities shaping Africa today.
+Project Description 
+AfriJournal Online is a responsive website that provides a digital news experience with multiple categories including News,Sports, Entertainment and Opinions. The website also includes About Us and Contact pages.
+Key Features.
+- Clear and consistent navigation menu
+-Featured story and latest headlines on the homepage 
+-Multimedia integration (image, video and audio clip)
+-Contact form for user interaction 
+-Cosistent CSS styling for readability and usability 
 
 
+Features
 
-##Technical Details
+- Homepage: Featured stories, latest headlines and clear navigation  menu.
+- Content Page: News, Sports, Entertainment, Opinion categories.
+- About Us: Mission statement and goals. 
+Contact Page: Functional form for visitor inquiries.
+- Multimedia Intergration: Embedded Video and audio interview.  
+- Consistent CSS Styling: External CSS file for colors, spacing and layout.  
+- Usability & Accessibility:Easy navigation, fast loading and avoidance of common web design mistakes.  
+
+
+
+Technical Details
 
 - Built using **HTML5** and **CSS3**.  
 - Designed to be responsive and mobile-friendly.  
@@ -33,8 +36,8 @@ It serves as a prototype for an online journalism platform that integrates multi
 - External CSS file for consistent design.
 - Uses a simple navigation menu linking all sections.
 
-File Structure 
-## File AfriJournal-Online/
+ project Structure 
+File AfriJournal-Online
 │
 ├── index.html              → Homepage
 ├── news.html               → News page
@@ -49,26 +52,36 @@ File Structure
 ├── /images/                → Contains all images
 ├── /audio/                 → Contains interview audio file
 └── /video/                 → Contains news video ---
+Notes:
+-All files are named clearly to indicate their purpose.
+-Codes  comments are  added where necessary for clarity.
+-CSS is in a separate folder for consistency and easy updates.
 
-Hosting Information
+Installation/ Viewing Instructions 
+1. Clone the repository:
+ bash
+git clone https//github.com/goratakufigwa-code/AfriJournal-Online.git
+2. Navigate to the project folder:
+cd AfriJournal-Online 
+3. Open index.html in your preferred web browser to view website.
 
-This project is hosted for free on **GitHub Pages**.
 
-**Live Website:**  
+
+Live Website:
  [https://goratakufigwa-code.github.io/AfriJournal-Online/](https://goratakufigwa-code.github.io/AfriJournal-Online/)
 
 
 Developer Information
 
-**Project by:** Gorata Bame Kufigwa  
-**Course:** Web Technology 1  
-**Program:** BA (Hons) in Broadcasting and Journalism  
-**University:** Limkokwing University of Creative Technology  
-**Year:** 2025  
+Project by: Gorata Bame Kufigwa  
+Course: Web Technology 1  
+Program: BA (Hons) in Broadcasting and Journalism  
+University: Limkokwing University of Creative Technology  
+Year: 2025  
 
 
 
 License
 
-This project is licensed under the **CC0 1.0 License** — you may use or adapt it freely for educational purposes.
+This project is licensed under the CC0 1.0 License.
 
