@@ -84,8 +84,14 @@ Jacob Kelebeng picture was taken from the Ministry of Sport and Arts Botswana pa
 Cricket picture was taken from Botswana Cricket Association Facebook page
 SADC picture was taken from the the SADC official Facebook page
 Tumisang Orebonye's pictures was taken from Al'lttihad official Facebook page
+And the rest of the pictures, audio and the videos where taken by Gorata Bame Kufigwa 
 
 License
 
 This project is licensed under the CC0 1.0 License.
 
+References
+1.Ministry of Sport and Arts Botswana  Facebook page ( Jacob Kelebeng image)
+2. Botswana Cricket Associations facebook page(cricket image)
+3. SADC Facebook page(SADC image)
+4. Al ltttihad Facebook page( Tumisang Orebonye image)
